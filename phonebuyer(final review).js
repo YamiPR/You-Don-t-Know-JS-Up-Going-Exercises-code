@@ -29,7 +29,7 @@ while (spentatm < accountbalance ) {
 	}
 }
 
-console.log("Bought " + phonecount + " phones and " + accesoriescount + " phone accesories. Total cost is " + formatPrice(calculateTax(spentatm)));
+console.log("You're trying to purchase " + phonecount + " phones and " + accesoriescount + " phone accesories. Total cost is " + formatPrice(calculateTax(spentatm)));
 
 if ( spentatm < accountbalance ){
 	console.log( "You can afford buying all of this." );
